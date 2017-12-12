@@ -306,3 +306,5 @@ WIFI_DRIVER_OPERSTATE_PATH := "/sys/class/net/wlan0/operstate"
 
 # inherit from the proprietary version
 -include vendor/oneplus/msm8998-common/BoardConfigVendor.mk
+
+ALLOW_MISSING_DEPENDENCIES=true
